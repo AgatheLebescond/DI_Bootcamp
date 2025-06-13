@@ -1,0 +1,6 @@
+URL: URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D4_XP.ipynb
+suggestions for improvement:
+- The Siamese class lacks unique attributes or methods as suggested in the instructions.  Adding a specific trait for Siamese cats would improve the exercise.
+- Exercise 2 and 3 are not implemented. The submission only addresses Exercise 1.
+Correctness: 80%
+-----

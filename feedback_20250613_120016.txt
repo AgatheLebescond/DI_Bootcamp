@@ -1,0 +1,8 @@
+URL: URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D3_XP.ipynb
+suggestions for improvement:
+- The first exercise (Person class) is not related to the chapter content (Cats, Dogs, Songs, Zoo).  Remove it.
+- In Exercise 1 (Cats), the first version of `find_oldest_cat` is more efficient than the second.  The second version iterates unnecessarily.
+- Exercise 4 (Zoo) is missing the `get_groups()` method, which is a key part of the instructions. Add this method to print the grouped animals.  The `sort_animals` method is correctly implemented but could be simplified.
+- Add docstrings to all functions for better readability and understanding.
+Correctness: 80%
+-----

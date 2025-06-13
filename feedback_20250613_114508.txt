@@ -1,0 +1,15 @@
+URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D1_DailyChallenge.ipynb
+suggestions for improvement:
+- Challenge 1: The code for Challenge 1 is partially correct; it generates multiples but doesn't handle user input dynamically.  It should incorporate the `number` and `length` input from the user.
+- Challenge 1: The code should include error handling (e.g., `try-except` block) in case the user enters non-numeric input for `number` or `length`.
+- Challenge 2: The code for Challenge 2 has a logic error; it doesn't correctly remove consecutive duplicates. It appears to only remove consecutive duplicates in cases where the number of consecutive duplicates is greater than 2. The `else` statement is incorrectly indented, causing logical issues.  The code only processes a hardcoded example, not user input.
+- Challenge 2: Improve the readability and efficiency of the duplicate removal logic. A more concise approach might be to use a while loop that iteratively removes adjacent duplicate characters. 
+- General:  Use more descriptive variable names (e.g., instead of `number`, use `user_number`).
+- General: Add comments to explain complex logic or steps within the code.
+- General: Consider using functions to encapsulate the logic for each challenge, enhancing modularity and readability.
+Brief justification:
+- correctness: Challenge 1's code implements the core logic of generating multiples but is missing user input handling. Challenge 2's code attempts the duplicate removal but contains a logical error and doesn't use user input, significantly reducing its correctness. The partial correctness of the code, combined with its functionality being directly related to the chapter's focus on list and string manipulation, results in an 80% score.
+- readability: The code's readability is hampered by a lack of comments, inconsistent indentation (especially in Challenge 2), and non-descriptive variable names.  While the structure is mostly clear, improvements are necessary for better understanding.
+- performance: The performance of the code for both challenges is reasonable for small inputs. The algorithms are relatively straightforward and efficient. The use of simple loops and list operations makes them computationally inexpensive. The logic error in Challenge 2 decreases this score slightly.
+- security: The code does not include any obvious security vulnerabilities.  However, improved input validation (handling exceptions for invalid inputs in Challenge 1) would further enhance security.
+
