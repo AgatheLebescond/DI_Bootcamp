@@ -1,0 +1,12 @@
+URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D1_XP.ipynb
+suggestions for improvement:
+- The provided code does not address Challenge 1 or Challenge 2.  It contains examples of various Python operations (loops, string manipulation, input/output, sets, tuples, lists) but none directly solve the problems stated in the chapter.
+- Add functions to clearly separate the logic for Challenges 1 and 2.
+- Challenge 1 requires generating a list of multiples; this is missing.
+- Challenge 2 needs a function to remove consecutive duplicate characters.  The current code lacks this functionality.
+Brief justification:
+- correctness: The code performs basic Python operations, but none of these directly relate to the core tasks of generating sequences of multiples (Challenge 1) or removing consecutive duplicate characters from strings (Challenge 2) as specified in the chapter content. Therefore, the correctness score is 0%.
+- readability: The code is generally readable with clear variable names and comments in most sections. However, it could be structured better by separating the code into functions for each challenge to improve readability and maintainability.
+- performance: The code's performance for the unrelated tasks it does perform is efficient. The provided operations are simple and fast, and no major inefficiencies are observed.
+- security: The code doesn't involve any user input that poses security risks in this context. The code is secure.
+
