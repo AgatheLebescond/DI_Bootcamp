@@ -1,0 +1,11 @@
+URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D5_DailyChallenge.ipynb
+suggestions for improvement:
+- The code is missing the implementation for printing the attributes of the circle using a dunder method (e.g., `__str__` or `__repr__` should be more descriptive).
+- Add more comprehensive error handling, such as checking for negative radius/diameter values in the constructor.
+- The bonus task of drawing the circles using the Turtle module is not implemented.
+Brief justification:
+- correctness: The code correctly implements the `__init__`, `__add__`, `__lt__`, and `__eq__` dunder methods to handle circle creation, addition, comparison, and equality checks as per chapter instructions.  It also correctly implements the sorting functionality using the `__lt__` method, allowing the use of `sorted()`.  However, it lacks the explicit implementation of a dunder method for printing attributes, and the bonus task is not implemented. Therefore, a score of 90% is appropriate.
+- readability: The code is well-structured, uses clear variable names, and includes comments explaining different steps.  The use of property decorators for `diameter` and `area` enhances readability. The `__repr__` method is concise and informative, making it easy to understand Circle instances.
+- performance: The code's performance is efficient. The calculations for area and diameter are straightforward and the dunder methods are implemented efficiently. There are no unnecessary computations or loops that would impact performance.
+- security: The code includes error handling (e.g., `ValueError` in `__init__` and `TypeError` in `__add__` and `__lt__`) to prevent common issues like providing both radius and diameter.  No security vulnerabilities are apparent in this code snippet.
+
