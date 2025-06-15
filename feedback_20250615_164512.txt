@@ -1,0 +1,17 @@
+URL: URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D5MiniProject/Part2_RockPaperScissors.ipynb
+suggestions for improvement:
+- The code is missing the `game.py` file, which is crucial for implementing the `Game` class as specified in the instructions.  Without this, the core functionality of the rock-paper-scissors game is absent.
+- The `main` function attempts to use a `Game` class and its `play` method, but this class isn't defined in the provided code. This causes a `ModuleNotFoundError`.
+- The `print_results` function should include a thank-you message as explicitly stated in the instructions.
+- The code adds features (history tracking, final winner declaration) that are not explicitly requested in the Chapter Content/Questions.
+- Improve error handling for invalid user input in the `get_user_menu_choice` function.  Currently, it only handles 'g', 's', and 'q'.
+Correctness: 0%
+-----
+URL: URL: https://github.com/AgatheLebescond/DI_Bootcamp/blob/main/W1_D5MiniProject/Part1_Game.ipynb
+suggestions for improvement:
+- The `game.py` file's `play()` method should return a single string representing the result ('win', 'loss', or 'draw') as specified in the instructions.  Currently, it returns three values: user_item, computer_item, and result. This needs to be adjusted to match the instructions.
+- The `rock-paper-scissors.py` file is missing. The instructions clearly state to create this file with three functions (`get_user_menu_choice`, `print_results`, and `main`).  Without this file, the project is incomplete.
+- Add error handling for potential exceptions, such as those that might arise from user input (although this is mitigated by the input validation).
+- Consider using a more descriptive variable name than `results` for better readability. For example, `game_results` would be better.
+Correctness: 90%
+-----
