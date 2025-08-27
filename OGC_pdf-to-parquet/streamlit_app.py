@@ -2,6 +2,7 @@ import os
 import glob
 import pandas as pd
 import streamlit as st
+import base64
 
 st.set_page_config(page_title="OGC PDF → Parquet Viewer", layout="wide")
 
@@ -31,7 +32,11 @@ else:
         with col1:
             st.subheader("Image")
             if "image_b64" in row and isinstance(row["image_b64"], str):
-                st.image(row["image_b64"], caption=f"{row.get('pdf_name','')} - page {row.get('page_index','?')}")
+                try:
+                    img_bytes = base64.b64decode(row["image_b64"])  # PNG bytes
+                    st.image(img_bytes, caption=f"{row.get('pdf_name','')} - page {row.get('page_index','?')}")
+                except Exception as e:
+                    st.info(f"Impossible d'afficher l'image (base64). Erreur: {e}")
             else:
                 st.info("Aucune image_b64 dans cette ligne")
         with col2:
