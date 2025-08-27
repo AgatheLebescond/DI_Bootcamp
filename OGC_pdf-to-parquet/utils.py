@@ -5,7 +5,6 @@ from typing import List, Tuple, Dict, Any
 
 import fitz  # PyMuPDF
 from PIL import Image
-from pdf2image import convert_from_path
 from pdfminer.high_level import extract_text
 from langdetect import detect
 
