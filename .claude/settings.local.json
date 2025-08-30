@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest test_pdf_processor.py -v)",
+      "Bash(python -m pytest test_pdf_processor.py::TestIntegration::test_full_pipeline_integration -v -s)",
+      "Read(/private/var/log/**)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
